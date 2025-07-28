@@ -1,3 +1,11 @@
+
+@font-face {
+    font-family:'Norse-Bold';
+    src: url('fonts/Norse-Bold.otf');
+    
+}
+
+
 .page{
     display: flex;
     flex-direction: row;
@@ -16,7 +24,7 @@
 
 
 .right-side{
-    background-color: rgb(235, 231, 231);
+    background-color: rgba(247, 247, 248, 0.99);
     max-width: 60vw;
     height: 100vh;
     text-wrap: auto;
@@ -55,7 +63,8 @@ fieldset{
     min-height: 20vh;
     box-sizing: border-box;
     padding: 20px;
-    box-shadow: 0px 5px rgb(160, 152, 152);
+    box-shadow: 0px 5px rgb(251, 250, 250);
+    font-style: ;
 
 }
 
@@ -70,6 +79,7 @@ fieldset{
     margin-right: 30px;
     min-width: 200px;
     margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -79,9 +89,10 @@ h1{
 }
 
 input{
-    border: 3px solid rgb(226, 225, 225);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
-    min-height: 20px;
+    min-height: 30px;
+    box-sizing: border-box;
 }
 
 label{
@@ -97,14 +108,16 @@ label{
 
 #sign-up-button{
 
-    background-color:green;
+    background-color:rgba(5, 75, 5, 0.86);
     color: white;
     margin-top: 30px;
     margin-left: 30px;
     height: 40px;
     width: 200px;
+    
     border-radius: 10px;
-    box-shadow: 3px 3px grey;
+    box-shadow: 2px 3px rgb(0, 0, 0);
+    font-size: 12pt;
     
 }
 
@@ -118,11 +131,34 @@ label{
     display: flex;
     position: absolute;
     color:aliceblue;
-    top: 40%;
+    top: 20%;
     height: 10%;
     width: 100%;
     justify-content: center;
     align-items: center;
     opacity: 50%;
-    background-color: black
+    background-color: black;
+    font-family: 'Norse-Bold';
+    
+}
+
+.logo h1{
+
+    font-size: 50px;
+}
+
+#img-credit{
+    display: flex;
+    position: absolute;
+    color: white;
+    top: 90%;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+a{
+    color: white;
 }
