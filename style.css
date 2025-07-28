@@ -1,0 +1,128 @@
+.page{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+
+.left-side{
+    background-color: green;
+    width: 40vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+.right-side{
+    background-color: rgb(235, 231, 231);
+    max-width: 60vw;
+    height: 100vh;
+    text-wrap: auto;
+}
+
+#city-pic{
+    width: 40vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+#statement{
+    margin-top: 10%;
+    margin-left: 30px;
+    margin-right: 30%;
+    font-size: 1.5vw;
+    max-height: 15vh;
+    font-weight: bold;
+
+
+}
+
+
+
+
+fieldset{
+    margin-top: 10%;
+    background-color: white;
+    border: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: first baseline;
+    max-width: 100vw;
+    min-height: 20vh;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 5px rgb(160, 152, 152);
+
+}
+
+    
+
+.form-divs{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    min-width: 200px;
+    margin-left: 30px;
+
+}
+
+h1{
+    margin-left: 30px;
+    font-size: 20pt;
+}
+
+input{
+    border: 3px solid rgb(226, 225, 225);
+    border-radius: 5px;
+    min-height: 20px;
+}
+
+label{
+    font-size: 10pt;
+}
+
+
+
+
+.lets-do-this{
+    width: 100%;
+}
+
+#sign-up-button{
+
+    background-color:green;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 3px grey;
+    
+}
+
+.sign-up-form p{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+
+.logo{
+    display: flex;
+    position: absolute;
+    color:aliceblue;
+    top: 40%;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+    background-color: black
+}
